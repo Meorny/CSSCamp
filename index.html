@@ -3,24 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download CSSCamp</title>
+    <title>CSSCamp - Complete CSS Framework</title>
     <link rel="stylesheet" href="styles/csscamp.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* Clean reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth;}
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* Clean, thin navbar */
+        .navbar {
+            height: 60px;
+            padding: 0 20px;
+            top: 0px;
+        }
+        
+        /* Professional sections */
+        .section {
+            padding: 60px 20px;
+        }
+        
+        /* Clean comparison table */
+        .comparison-table {
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .navbar-links { display: none; }
+            .mobile-toggle { display: block !important; }
+            .section { padding: 40px 15px; }
+        }
+    </style>
 </head>
-<body>
+<body class="bg-light">
 
-    <div class="download royal-color-box bg-win center w-40 h-40 d-flex flex-direction-col align-items-center justify-content-center">
-        <h1 class="text-light font-size-26">Download CSSCamp</h1>
-        <div class="download">
-            <a class="btn-bt text-light p-6 m-5 txt-dec-none border-all-1-light" href="csscampfiles/csscamp-min.css">Download CSSCamp Unminified</a>
-            <a class="btn-bt text-light p-6 m-5 txt-dec-none border-all-1-light" href="csscampfiles/csscamp.css">Download CSSCamp Minified</a>
+    <!-- Clean Navbar -->
+    <nav class="navbar bg-dark text-white pos-fixed w-100 z-index-10 d-flex align-items-center justify-content-space-between">
+        <div class="d-flex align-items-center">
+            <h3 class="text-primary m-0"><span class="text-neon">CSS</span>Camp</h3>
         </div>
+        
+        <div class="navbar-links d-flex">
+            <a href="#home" class="text-light txt-dec-none ml-15">Home</a>
+            <a href="#download" class="text-light txt-dec-none ml-15">Download</a>
+            <a href="#comparison" class="text-light txt-dec-none ml-15">vs Bootstrap</a>
+            <a href="#docs" class="text-light txt-dec-none ml-15">Docs</a>
+        </div>
+        
+        <button class="mobile-toggle btn-bt bg-transparent text-white border-all-1-light rounded-5 d-none">
+            ☰
+        </button>
+    </nav>
 
-        <h2 class="text-light font-size-26">Why choose CSSCamp</h2>
-        <p>Because CSSCamp is large, fast, ultra styled CSS Framework which you can build EVERYTHING with it</p>
+    <!-- Hero - Clean -->
+    <section id="home" class="section bg-primary text-white" style="margin-top: 60px;">
+        <div class="d-flex flex-direction-row justify-content-center align-items-center ">
+            <div class="ml-15">
+                <h1 class="font-size-36 mb-15 ml-15 mr-15">Build Faster with CSSCamp</h1>
+                <p class="font-size-18 mb-15 ml-15 mr-15">One CSS file with 6,000+ utilities. Zero configuration.</p>
+            </div>
+            <span class="space ml-15 mr-15"></span>
+            <a href="#download" class="btn-bt bg-neon text-light rounded-5">Download v1.0</a>
+        </div>
+    </section>
 
+    <!-- Download - Clean -->
+    <section id="download" class="section bg-white">
+        <div class="container text-center">
+            <h2 class="text-primary mb-30">Download</h2>
+            
+            <div class="d-flex justify-content-center flex-wrap">
+                <div class="m-10 w-30">
+                    <div class="bg-light p-20 rounded-10">
+                        <h4 class="text-win mb-10">Minified</h4>
+                        <p class="text-secondary mb-15">Optimized for production</p>
+                        <a href="csscampfiles/csscamp-min.css" 
+                           download="csscamp.min.css"
+                           class="btn-bt bg-win text-light w-100 p-10 rounded-5">
+                            Download
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="m-10 w-30">
+                    <div class="bg-light p-20 rounded-10">
+                        <h4 class="text-solid mb-10">Unminified</h4>
+                        <p class="text-secondary mb-15">Full source with comments</p>
+                        <a href="csscampfiles/csscamp.css" 
+                           download="csscamp.css"
+                           class="btn-bt bg-solid text-light w-100 p-10 rounded-5">
+                            Download
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-    </div>
-    
+        </div>
+    </section>
+
+    <!-- Comparison - Professional -->
+    <section id="comparison" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center text-primary mb-30">CSSCamp vs Bootstrap</h2>
+            
+            <table class="comparison-table w-100">
+                <thead>
+                    <tr class="bg-dark text-white">
+                        <th class="p-15 text-left">Feature</th>
+                        <th class="p-15">CSSCamp</th>
+                        <th class="p-15">Bootstrap</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white">
+                        <td class="p-15"><strong>Setup</strong></td>
+                        <td class="p-15 text-win">No configuration</td>
+                        <td class="p-15">Sass variables needed</td>
+                    </tr>
+                    <tr>
+                        <td class="p-15"><strong>File Size</strong></td>
+                        <td class="p-15">82KB</td>
+                        <td class="p-15">227KB</td>
+                    </tr>
+                    <tr class="bg-white">
+                        <td class="p-15"><strong>Build Step</strong></td>
+                        <td class="p-15 text-win">Not required</td>
+                        <td class="p-15">Recommended</td>
+                    </tr>
+                    <tr>
+                        <td class="p-15"><strong>Approach</strong></td>
+                        <td class="p-15">Utility-first</td>
+                        <td class="p-15">Component-based</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Docs - Simple -->
+    <section id="docs" class="section bg-white">
+        <div class="container">
+            <h2 class="text-center text-primary mb-30">Documentation</h2>
+            
+            <div class="d-flex flex-wrap">
+                <a class="btn-bt bg-win text-light" href="https://github.com/yasin2343jaberynsar/CSSCamp">Full CSSCamp Documentation</a>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white p-20 text-center">
+        <p>CSSCamp v1.0 • <a href="https://github.com/yasin2343jaberynsar/CSSCamp" class="text-neon txt-dec-none">GitHub</a></p>
+    </footer>
+
+    <script>
+        // Mobile menu
+        document.querySelector('.mobile-toggle')?.addEventListener('click', function() {
+            const links = document.querySelector('.navbar-links');
+            if (links.style.display === 'flex') {
+                links.style.display = 'none';
+            } else {
+                links.style.display = 'flex';
+                links.style.flexDirection = 'column';
+                links.style.position = 'absolute';
+                links.style.top = '60px';
+                links.style.right = '20px';
+                links.style.background = 'var(--dark)';
+                links.style.padding = '20px';
+                links.style.borderRadius = '8px';
+            }
+        });
+    </script>
 </body>
 </html>
