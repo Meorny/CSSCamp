@@ -1,0 +1,6912 @@
+:root{
+    --primary: rgb(13, 110, 253);
+    --secondary: rgb(108, 117, 128);
+    --lose: rgb(220, 53, 69);
+    --light: rgb(248, 249, 250);
+    --dark: rgb(33, 37, 41);
+    --win: rgb(25, 125, 84);
+    --info: rgb(13, 202, 240);
+    --yel: rgb(255, 193, 7);
+    --solid: rgb(233, 100, 0);
+    --neon: #b01dce;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.rounded-2{
+    border-radius: 2px;
+}
+.rounded-3{
+    border-radius: 3px;
+}
+.rounded-4{
+    border-radius: 4px;
+}
+.rounded-5{
+    border-radius: 5px;
+}
+.rounded-6{
+    border-radius: 6px;
+}
+.rounded-7{
+    border-radius: 7px;
+}
+.rounded-8{
+    border-radius: 8px;
+}
+.rounded-9{
+    border-radius: 9px;
+}
+.rounded-10{
+    border-radius: 10px;
+}
+.rounded-15{
+    border-radius: 15px;
+}
+
+.rounded-circle{
+    border-radius: 100%;
+}
+
+.rounded-circle-h:hover{
+    border-radius: 100%;
+}
+
+
+.rounded-2-h:hover{
+    border-radius: 2px;
+}
+.rounded-3-h:hover{
+    border-radius: 3px;
+}
+.rounded-4-h:hover{
+    border-radius: 4px;
+}
+.rounded-5-h:hover{
+    border-radius: 5px;
+}
+.rounded-6-h:hover{
+    border-radius: 6px;
+}
+.rounded-7-h:hover{
+    border-radius: 7px;
+}
+.rounded-8-h:hover{
+    border-radius: 8px;
+}
+.rounded-9-h:hover{
+    border-radius: 9px;
+}
+.rounded-10-h:hover{
+    border-radius: 10px;
+}
+.rounded-15-h:hover{
+    border-radius: 15px;
+}
+
+.list-style-type-none{
+    list-style-type: none;
+}
+
+.list-style-type-sq{
+    list-style-type: square;
+}
+
+.list-style-type-circle{
+    list-style-type: circle;
+}
+
+
+.bg-primary{
+    background: var(--primary) !important;
+    color: white;
+}
+
+.bg-info{
+    background: var(--info) !important;
+    color: black;
+}
+
+.bg-neon{
+    background: var(--neon) !important;
+    color: black;
+}
+
+.bg-dark{
+    background: var(--dark) !important;
+    color: white;
+}
+
+.bg-lose{
+    background: var(--lose) !important;
+    color: white;
+}
+
+.bg-light{
+    background: var(--light) !important;
+    color: black;
+}
+
+.bg-secondary{
+    background: var(--secondary) !important;
+    color: white;
+}
+
+.bg-yel{
+    background: var(--yel) !important;
+    color: black;
+}
+
+.bg-win{
+    background: var(--win) !important;
+    color: white;
+}
+
+.bg-solid{
+    background: var(--solid) !important;
+    color: white;
+}
+
+
+.p-2{
+    padding: 2px;
+}
+
+.p-3{
+    padding: 3px;
+}
+
+.p-4{
+    padding: 4px;
+}
+
+.p-5{
+    padding: 5px;
+}
+
+.p-6{
+    padding: 6px;
+}
+
+.p-7{
+    padding: 7px;
+}
+
+.p-8{
+    padding: 8px;
+}
+
+.p-9{
+    padding: 9px;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+.p-15{
+    padding: 15px;
+}
+
+.pt-2{
+    padding-top: 2px;
+}
+
+.pt-3{
+    padding-top: 3px;
+}
+
+.pt-4{
+    padding-top: 4px;
+}
+
+.pt-5{
+    padding-top: 5px;
+}
+
+.pt-6{
+    padding-top: 6px;
+}
+
+
+.pt-7{
+    padding-top: 7px;
+}
+
+.pt-8{
+    padding-top: 8px;
+}
+
+.pt-9{
+    padding-top: 9px;
+}
+
+.pt-10{
+    padding-top: 10px;
+}
+
+.pt-15{
+    padding-top: 15px;
+}
+
+.pb-2{
+    padding-bottom: 2px;
+}
+
+.pb-3{
+    padding-bottom: 3px;
+}
+
+.pb-4{
+    padding-bottom: 4px;
+}
+
+.pb-5{
+    padding-bottom: 5px;
+}
+
+.pb-6{
+    padding-bottom: 6px;
+}
+
+.pb-7{
+    padding-bottom: 7px;
+}
+
+.pb-8{
+    padding-bottom: 8px;
+}
+
+.pb-9{
+    padding-bottom: 9px;
+}
+
+.pb-10{
+    padding-bottom: 10px;
+}
+
+.pb-15{
+    padding-bottom: 15px;
+}
+
+.pl-2{
+    padding-left: 2px;
+}
+
+.pl-3{
+    padding-left: 3px;
+}
+
+.pl-4{
+    padding-left: 4px;
+}
+
+.pl-5{
+    padding-left: 5px;
+}
+
+.pl-6{
+    padding-left: 6px;
+}
+
+.pl-7{
+    padding-left: 7px;
+}
+
+.pl-8{
+    padding-left: 8px;
+}
+
+.pl-9{
+    padding-left: 9px;
+}
+
+.pl-10{
+    padding-left: 10px;
+}
+
+.pl-15{
+    padding-left: 15px;
+}
+
+.pr-2{
+    padding-right: 2px;
+}
+
+.pr-3{
+    padding-right: 3px;
+}
+
+.pr-4{
+    padding-right: 4px;
+}
+
+.pr-5{
+    padding-right: 5px;
+}
+
+.pr-6{
+    padding-right: 6px;
+}
+
+.pr-7{
+    padding-right: 7px;
+}
+
+.pr-8{
+    padding-right: 8px;
+}
+
+.pr-9{
+    padding-right: 9px;
+}
+
+.pr-10{
+    padding-right: 10px;
+}
+
+.pr-15{
+    padding-right: 15px;
+}
+
+.m-2{
+    margin: 2px;
+}
+
+.m-3{
+    margin: 3px;
+}
+
+.m-4{
+    margin: 4px;
+}
+
+.m-5{
+    margin: 5px;
+}
+
+.m-6{
+    margin: 6px;
+}
+
+.m-7{
+    margin: 7px;
+}
+
+.m-8{
+    margin: 8px;
+}
+
+.m-9{
+    margin: 9px;
+}
+
+.m-10{
+    margin: 10px;
+}
+
+.m-15{
+    margin: 15px;
+}
+
+.mt-2{
+    margin-top: 2px;
+}
+
+.mt-3{
+    margin-top: 3px;
+}
+
+.mt-4{
+    margin-top: 4px;
+}
+
+.mt-5{
+    margin-top: 5px;
+}
+
+.mt-6{
+    margin-top: 6px;
+}
+
+.mt-7{
+    margin-top: 7px;
+}
+
+.mt-8{
+    margin-top: 8px;
+}
+
+.mt-9{
+    margin-top: 9px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+
+.mb-2{
+    margin-bottom: 2px;
+}
+
+.mb-3{
+    margin-bottom: 3px;
+}
+
+.mb-4{
+    margin-bottom: 4px;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.mb-6{
+    margin-bottom: 6px;
+}
+
+.mb-7{
+    margin-bottom: 7px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.mb-9{
+    margin-bottom: 9px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+
+.mr-2{
+    margin-right: 2px;
+}
+
+.mr-3{
+    margin-right: 3px;
+}
+
+.mr-4{
+    margin-right: 4px;
+}
+
+.mr-5{
+    margin-right: 5px;
+}
+
+.mr-6{
+    margin-right: 6px;
+}
+
+.mr-7{
+    margin-right: 7px;
+}
+
+.mr-8{
+    margin-right: 8px;
+}
+
+.mr-9{
+    margin-right: 9px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.mr-15{
+    margin-right: 15px;
+}
+
+.ml-2{
+    margin-left: 2px;
+}
+
+.ml-3{
+    margin-left: 3px;
+}
+
+.ml-4{
+    margin-left: 4px;
+}
+
+.ml-5{
+    margin-left: 5px;
+}
+
+.ml-6{
+    margin-left: 6px;
+}
+
+.ml-7{
+    margin-left: 7px;
+}
+
+.ml-8{
+    margin-left: 8px;
+}
+
+.ml-9{
+    margin-left: 9px;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+
+.ml-15{
+    margin-left: 15px;
+}
+
+
+.pc{
+    cursor: pointer;
+}
+
+.btn{
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 7px;
+    background: var(--primary);
+    color: white;
+    transition: 0.4s all ease-in-out;
+    border: none;
+    box-shadow: 0px 0px 4px 2px black;
+}
+
+.btn:hover{
+    background: rgb(13, 150, 253);
+    color: white;
+    transform: translateX(-1px);
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+.form-control:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+    overflow-clip-margin: 0px !important;
+    overflow: clip !important;
+}
+
+.form-control[type="email" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.btn-bt{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-bt:hover{
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.progressbar-primary-5{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-5::before{
+    content: '';
+    display: block;
+    width: 5%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-10{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-10::before{
+    content: '';
+    display: block;
+    width: 10%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-15{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-15::before{
+    content: '';
+    display: block;
+    width: 15%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-20{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-20::before{
+    content: '';
+    display: block;
+    width: 20%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-25{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-25::before{
+    content: '';
+    display: block;
+    width: 25%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-30{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-30::before{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-35{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-35::before{
+    content: '';
+    display: block;
+    width: 35%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-40{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-40::before{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-45{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-45::before{
+    content: '';
+    display: block;
+    width: 45%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-50{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-50::before{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-55{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-55::before{
+    content: '';
+    display: block;
+    width: 55%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-60{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-60::before{
+    content: '';
+    display: block;
+    width: 60%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-65{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-65::before{
+    content: '';
+    display: block;
+    width: 65%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-70{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-70::before{
+    content: '';
+    display: block;
+    width: 70%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-75{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-75::before{
+    content: '';
+    display: block;
+    width: 75%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-80{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-80::before{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-85{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-85::before{
+    content: '';
+    display: block;
+    width: 85%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-90{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-90::before{
+    content: '';
+    display: block;
+    width: 90%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-95{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-95::before{
+    content: '';
+    display: block;
+    width: 95%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-primary-100{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-primary-100::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: var(--primary);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--primary);
+}
+
+.progressbar-win-5{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-5::before{
+    content: '';
+    display: block;
+    width: 5%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-10{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-10::before{
+    content: '';
+    display: block;
+    width: 10%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-15{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-15::before{
+    content: '';
+    display: block;
+    width: 15%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-20{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-20::before{
+    content: '';
+    display: block;
+    width: 20%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-25{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-25::before{
+    content: '';
+    display: block;
+    width: 25%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-30{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-30::before{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-35{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-35::before{
+    content: '';
+    display: block;
+    width: 35%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-40{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-40::before{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-45{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-45::before{
+    content: '';
+    display: block;
+    width: 45%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-50{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-50::before{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-55{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-55::before{
+    content: '';
+    display: block;
+    width: 55%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-60{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-60::before{
+    content: '';
+    display: block;
+    width: 60%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-65{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-65::before{
+    content: '';
+    display: block;
+    width: 65%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-70{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-70::before{
+    content: '';
+    display: block;
+    width: 70%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-75{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-75::before{
+    content: '';
+    display: block;
+    width: 75%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-80{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-80::before{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-85{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-85::before{
+    content: '';
+    display: block;
+    width: 85%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-90{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-90::before{
+    content: '';
+    display: block;
+    width: 90%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-95{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-95::before{
+    content: '';
+    display: block;
+    width: 95%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-win-100{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-win-100::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: var(--win);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--win);
+}
+
+.progressbar-lose-5{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-5::before{
+    content: '';
+    display: block;
+    width: 5%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-10{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-10::before{
+    content: '';
+    display: block;
+    width: 10%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-15{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-15::before{
+    content: '';
+    display: block;
+    width: 15%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-20{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-20::before{
+    content: '';
+    display: block;
+    width: 20%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-25{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-25::before{
+    content: '';
+    display: block;
+    width: 25%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-30{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-30::before{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-35{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-35::before{
+    content: '';
+    display: block;
+    width: 35%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-40{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-40::before{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-45{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-45::before{
+    content: '';
+    display: block;
+    width: 45%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-50{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-50::before{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-55{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-55::before{
+    content: '';
+    display: block;
+    width: 55%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-60{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-60::before{
+    content: '';
+    display: block;
+    width: 60%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-65{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-65::before{
+    content: '';
+    display: block;
+    width: 65%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-70{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-70::before{
+    content: '';
+    display: block;
+    width: 70%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-75{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-75::before{
+    content: '';
+    display: block;
+    width: 75%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-80{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-80::before{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-85{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-85::before{
+    content: '';
+    display: block;
+    width: 85%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-90{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-90::before{
+    content: '';
+    display: block;
+    width: 90%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-95{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-95::before{
+    content: '';
+    display: block;
+    width: 95%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-lose-100{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-lose-100::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: var(--lose);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--lose);
+}
+
+.progressbar-info-5{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-5::before{
+    content: '';
+    display: block;
+    width: 5%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-10{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-10::before{
+    content: '';
+    display: block;
+    width: 10%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-15{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-15::before{
+    content: '';
+    display: block;
+    width: 15%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-20{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-20::before{
+    content: '';
+    display: block;
+    width: 20%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-25{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-25::before{
+    content: '';
+    display: block;
+    width: 25%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-30{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-30::before{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-35{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-35::before{
+    content: '';
+    display: block;
+    width: 35%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-40{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-40::before{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-45{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-45::before{
+    content: '';
+    display: block;
+    width: 45%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-50{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-50::before{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-55{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-55::before{
+    content: '';
+    display: block;
+    width: 55%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-60{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-60::before{
+    content: '';
+    display: block;
+    width: 60%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-65{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-65::before{
+    content: '';
+    display: block;
+    width: 65%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-70{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-70::before{
+    content: '';
+    display: block;
+    width: 70%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-75{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-75::before{
+    content: '';
+    display: block;
+    width: 75%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-80{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-80::before{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-85{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-85::before{
+    content: '';
+    display: block;
+    width: 85%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-90{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-90::before{
+    content: '';
+    display: block;
+    width: 90%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-95{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-95::before{
+    content: '';
+    display: block;
+    width: 95%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-info-100{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-info-100::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: var(--info);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--info);
+}
+
+.progressbar-neon-5{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-5::before{
+    content: '';
+    display: block;
+    width: 5%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-10{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-10::before{
+    content: '';
+    display: block;
+    width: 10%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-15{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-15::before{
+    content: '';
+    display: block;
+    width: 15%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-20{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-20::before{
+    content: '';
+    display: block;
+    width: 20%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-25{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-25::before{
+    content: '';
+    display: block;
+    width: 25%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-30{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-30::before{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-35{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-35::before{
+    content: '';
+    display: block;
+    width: 35%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-40{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-40::before{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-45{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-45::before{
+    content: '';
+    display: block;
+    width: 45%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-50{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-50::before{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-55{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-55::before{
+    content: '';
+    display: block;
+    width: 55%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-60{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-60::before{
+    content: '';
+    display: block;
+    width: 60%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-65{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-65::before{
+    content: '';
+    display: block;
+    width: 65%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-70{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-70::before{
+    content: '';
+    display: block;
+    width: 70%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-75{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-75::before{
+    content: '';
+    display: block;
+    width: 75%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-80{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-80::before{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-85{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-85::before{
+    content: '';
+    display: block;
+    width: 85%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-90{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-90::before{
+    content: '';
+    display: block;
+    width: 90%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-95{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-95::before{
+    content: '';
+    display: block;
+    width: 95%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-neon-100{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-neon-100::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: var(--neon);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--neon);
+}
+
+.progressbar-yel-5{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-5::before{
+    content: '';
+    display: block;
+    width: 5%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-10{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-10::before{
+    content: '';
+    display: block;
+    width: 10%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-15{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-15::before{
+    content: '';
+    display: block;
+    width: 15%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-20{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-20::before{
+    content: '';
+    display: block;
+    width: 20%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-25{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-25::before{
+    content: '';
+    display: block;
+    width: 25%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-30{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-30::before{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-35{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-35::before{
+    content: '';
+    display: block;
+    width: 35%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-40{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-40::before{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-45{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-45::before{
+    content: '';
+    display: block;
+    width: 45%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-50{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-50::before{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-55{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-55::before{
+    content: '';
+    display: block;
+    width: 55%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-60{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-60::before{
+    content: '';
+    display: block;
+    width: 60%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-65{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-65::before{
+    content: '';
+    display: block;
+    width: 65%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-70{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-70::before{
+    content: '';
+    display: block;
+    width: 70%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-75{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-75::before{
+    content: '';
+    display: block;
+    width: 75%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-80{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-80::before{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-85{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-85::before{
+    content: '';
+    display: block;
+    width: 85%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-90{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-90::before{
+    content: '';
+    display: block;
+    width: 90%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-95{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-95::before{
+    content: '';
+    display: block;
+    width: 95%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-yel-100{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-yel-100::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: var(--yel);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--yel);
+}
+
+.progressbar-solid-5{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-5::before{
+    content: '';
+    display: block;
+    width: 5%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-10{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-10::before{
+    content: '';
+    display: block;
+    width: 10%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-15{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-15::before{
+    content: '';
+    display: block;
+    width: 15%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-20{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-20::before{
+    content: '';
+    display: block;
+    width: 20%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-25{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-25::before{
+    content: '';
+    display: block;
+    width: 25%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-30{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-30::before{
+    content: '';
+    display: block;
+    width: 30%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-35{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-35::before{
+    content: '';
+    display: block;
+    width: 35%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-40{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-40::before{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-45{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-45::before{
+    content: '';
+    display: block;
+    width: 45%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-50{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-50::before{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-55{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-55::before{
+    content: '';
+    display: block;
+    width: 55%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-60{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-60::before{
+    content: '';
+    display: block;
+    width: 60%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-65{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-65::before{
+    content: '';
+    display: block;
+    width: 65%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-70{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-70::before{
+    content: '';
+    display: block;
+    width: 70%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-75{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-75::before{
+    content: '';
+    display: block;
+    width: 75%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-80{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-80::before{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-85{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-85::before{
+    content: '';
+    display: block;
+    width: 85%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-90{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-90::before{
+    content: '';
+    display: block;
+    width: 90%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-95{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-95::before{
+    content: '';
+    display: block;
+    width: 95%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+.progressbar-solid-100{
+    width: 100%;
+    height: 20px;
+    transition: 0.5s all ease;
+}
+
+.progressbar-solid-100::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: var(--solid);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px var(--solid);
+}
+
+
+.w-0{
+    width: 0%;
+}
+
+.w-5{
+    width: 5%;
+}
+
+.w-10{
+    width: 10%;
+}
+
+.w-15{
+    width: 15%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-35{
+    width: 35%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-45{
+    width: 45%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-55{
+    width: 55%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.w-65{
+    width: 65%;
+}
+
+.w-70{
+    width: 70%;
+}
+
+.w-75{
+    width: 75%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.w-85{
+    width: 85%;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.w-95{
+    width: 95%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-0-h:hover{
+    width: 0%;
+}
+
+.w-5-h:hover{
+    width: 5%;
+}
+
+.w-10-h:hover{
+    width: 10%;
+}
+
+.w-15-h:hover{
+    width: 15%;
+}
+
+.w-20-h:hover{
+    width: 20%;
+}
+
+.w-25-h:hover{
+    width: 25%;
+}
+
+.w-30-h:hover{
+    width: 30%;
+}
+
+.w-35-h:hover{
+    width: 35%;
+}
+
+.w-40-h:hover{
+    width: 40%;
+}
+
+.w-45-h:hover{
+    width: 45%;
+}
+
+.w-50-h:hover{
+    width: 50%;
+}
+
+.w-55-h:hover{
+    width: 55%;
+}
+
+.w-60-h:hover{
+    width: 60%;
+}
+
+.w-65-h:hover{
+    width: 65%;
+}
+
+.w-70-h:hover{
+    width: 70%;
+}
+
+.w-75-h:hover{
+    width: 75%;
+}
+
+.w-80-h:hover{
+    width: 80%;
+}
+
+.w-85-h:hover{
+    width: 85%;
+}
+
+.w-90-h:hover{
+    width: 90%;
+}
+
+.w-95-h:hover{
+    width: 95%;
+}
+
+.w-100-h:hover{
+    width: 100%;
+}
+
+.h-0{
+    height: 0%;
+}
+
+.h-5{
+    height: 5%;
+}
+
+.h-10{
+    height: 10%;
+}
+
+.h-15{
+    height: 15%;
+}
+
+.h-20{
+    height: 20%;
+}
+
+.h-25{
+    height: 25%;
+}
+
+.h-30{
+    height: 30%;
+}
+
+.h-35{
+    height: 35%;
+}
+
+.h-40{
+    height: 40%;
+}
+
+.h-45{
+    height: 45%;
+}
+
+.h-50{
+    height: 50%;
+}
+
+.h-55{
+    height: 55%;
+}
+
+.h-60{
+    height: 60%;
+}
+
+.h-65{
+    height: 65%;
+}
+
+.h-70{
+    height: 70%;
+}
+
+.h-75{
+    height: 75%;
+}
+
+.h-80{
+    height: 80%;
+}
+
+.h-85{
+    height: 85%;
+}
+
+.h-90{
+    height: 90%;
+}
+
+.h-95{
+    height: 95%;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.h-0-h:hover{
+    height: 0%;
+}
+
+.h-5-h:hover{
+    height: 5%;
+}
+
+.h-10-h:hover{
+    height: 10%;
+}
+
+.h-15-h:hover{
+    height: 15%;
+}
+
+.h-20-h:hover{
+    height: 20%;
+}
+
+.h-25-h:hover{
+    height: 25%;
+}
+
+.h-30-h:hover{
+    height: 30%;
+}
+
+.h-35-h:hover{
+    height: 35%;
+}
+
+.h-40-h:hover{
+    height: 40%;
+}
+
+.h-45-h:hover{
+    height: 45%;
+}
+
+.h-50-h:hover{
+    height: 50%;
+}
+
+.h-55-h:hover{
+    height: 55%;
+}
+.h-60-h:hover{
+    height: 60%;
+}
+
+.h-65-h:hover{
+    height: 65%;
+}
+
+.h-70-h:hover{
+    height: 70%;
+}
+
+.h-75-h:hover{
+    height: 75%;
+}
+
+.h-80-h:hover{
+    height: 80%;
+}
+
+.h-85-h:hover{
+    height: 85%;
+}
+
+.h-90-h:hover{
+    height: 90%;
+}
+
+.h-95-h:hover{
+    height: 95%;
+}
+
+.h-100-h:hover{
+    height: 100%;
+}
+
+.w-auto{
+    width: auto;
+}
+
+.h-auto{
+    height: auto;
+}
+
+.w-auto-h:hover{
+    width: auto;
+}
+
+.h-auto-h:hover{
+    height: auto;
+}
+
+.op-0{
+    opacity: 0;
+}
+
+.op-01{
+    opacity: 0.1;
+}
+
+.op-02{
+    opacity: 0.2;
+}
+
+.op-03{
+    opacity: 0.3;
+}
+
+.op-04{
+    opacity: 0.4;
+}
+
+.op-05{
+    opacity: 0.5;
+}
+
+.op-06{
+    opacity: 0.6;
+}
+
+.op-07{
+    opacity: 0.7;
+}
+
+.op-08{
+    opacity: 0.8;
+}
+
+.op-09{
+    opacity: 0.9;
+}
+
+.op-1{
+    opacity: 1;
+}
+
+.op-up-hover0:hover{
+    opacity: 0;
+}
+
+.op-up-hover01:hover{
+    opacity: 0.1;
+}
+
+.op-up-hover02:hover{
+    opacity: 0.2;
+}
+
+.op-up-hover03:hover{
+    opacity: 0.3;
+}
+
+
+.op-up-hover04:hover{
+    opacity: 0.4;
+}
+
+.op-up-hover05:hover{
+    opacity: 0.5;
+}
+
+
+.op-up-hover06:hover{
+    opacity: 0.6;
+}
+
+.op-up-hover07:hover{
+    opacity: 0.7;
+}
+
+.op-up-hover08:hover{
+    opacity: 0.8;
+}
+
+
+.op-up-hover09:hover{
+    opacity: 0.9;
+}
+
+.op-up-hover1:hover{
+    opacity: 1;
+}
+
+
+.trans-all-ease-01{
+    transition: 0.1s all ease;
+}
+
+.trans-all-ease-02{
+    transition: 0.2s all ease;
+}
+
+.trans-all-ease-03{
+    transition: 0.3s all ease;
+}
+
+.trans-all-ease-04{
+    transition: 0.4s all ease;
+}
+
+.trans-all-ease-05{
+    transition: 0.5s all ease;
+}
+
+.trans-all-ease-06{
+    transition: 0.6s all ease;
+}
+
+.trans-all-ease-07{
+    transition: 0.7s all ease;
+}
+
+.trans-all-ease-08{
+    transition: 0.8s all ease;
+}
+
+.trans-all-ease-09{
+    transition: 0.9s all ease;
+}
+
+.trans-all-ease-1{
+    transition: 1s all ease;
+}
+
+.trans-all-easein-01{
+    transition: 0.1s all ease-in;
+}
+
+.trans-all-easein-02{
+    transition: 0.2s all ease-in;
+}
+
+.trans-all-easein-03{
+    transition: 0.3s all ease-in;
+}
+
+.trans-all-easein-04{
+    transition: 0.4s all ease-in;
+}
+
+.trans-all-easein-05{
+    transition: 0.5s all ease-in;
+}
+
+.trans-all-easein-06{
+    transition: 0.6s all ease-in;
+}
+
+.trans-all-easein-07{
+    transition: 0.7s all ease-in;
+}
+
+.trans-all-easein-08{
+    transition: 0.8s all ease-in;
+}
+
+.trans-all-easein-09{
+    transition: 0.9s all ease-in;
+}
+
+.trans-all-easein-1{
+    transition: 1s all ease-in;
+}
+
+.trans-all-easeio-01{
+    transition: 0.1s all ease-in-out;
+}
+
+.trans-all-easeio-02{
+    transition: 0.2s all ease-in-out;
+}
+
+.trans-all-easeio-03{
+    transition: 0.3s all ease-in-out;
+}
+
+.trans-all-easeio-04{
+    transition: 0.4s all ease-in-out;
+}
+
+.trans-all-easeio-05{
+    transition: 0.5s all ease-in-out;
+}
+
+.trans-all-easeio-06{
+    transition: 0.6s all ease-in-out;
+}
+
+.trans-all-easeio-07{
+    transition: 0.7s all ease-in-out;
+}
+
+.trans-all-easeio-08{
+    transition: 0.8s all ease-in-out;
+}
+
+.trans-all-easeio-09{
+    transition: 0.9s all ease-in-out;
+}
+
+.trans-all-easeio-1{
+    transition: 1s all ease-in-out;
+}
+
+.trans-all-lin-01{
+    transition: 0.1s all linear;
+}
+
+.trans-all-lin-02{
+    transition: 0.2s all linear;
+}
+
+.trans-all-lin-03{
+    transition: 0.3s all linear;
+}
+
+.trans-all-lin-04{
+    transition: 0.4s all linear;
+}
+
+.trans-all-lin-05{
+    transition: 0.5s all linear;
+}
+
+.trans-all-lin-06{
+    transition: 0.6s all linear;
+}
+
+.trans-all-lin-07{
+    transition: 0.7s all linear;
+}
+
+.trans-all-lin-08{
+    transition: 0.8s all linear;
+}
+
+.trans-all-lin-09{
+    transition: 0.9s all linear;
+}
+
+.trans-all-lin-1{
+    transition: 1s all linear;
+}
+
+.trans-all-easeout-01{
+    transition: 0.1s all ease-out;
+}
+
+.trans-all-easeout-02{
+    transition: 0.2s all ease-out;
+}
+
+.trans-all-easeout-03{
+    transition: 0.3s all ease-out;
+}
+
+.trans-all-easeout-04{
+    transition: 0.4s all ease-out;
+}
+
+.trans-all-easeout-05{
+    transition: 0.5s all ease-out;
+}
+
+.trans-all-easeout-06{
+    transition: 0.6s all ease-out;
+}
+
+.trans-all-easeout-07{
+    transition: 0.7s all ease-out;
+}
+
+.trans-all-easeout-08{
+    transition: 0.8s all ease-out;
+}
+
+.trans-all-easeout-09{
+    transition: 0.9s all ease-out;
+}
+
+.trans-all-easeout-1{
+
+    transition: 1s all ease-out;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-grid{
+    display: grid;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-inline{
+    display: inline;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-inline-flex{
+    display: inline-flex;
+}
+
+.flex-direction-row{
+    flex-direction: row;
+}
+
+.flex-direction-col{
+    flex-direction: column;
+}
+
+.flex-direction-col-rev{
+    flex-direction: column-reverse;
+}
+
+.flex-direction-row-rev{
+    flex-direction: row-reverse;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-flex-st{
+    justify-content: flex-start;
+}
+
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+
+.justify-content-left{
+    justify-content: left;
+}
+
+.justify-content-right{
+    justify-content: right;
+}
+
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-space-evenly{
+    justify-content: space-evenly;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-flex-start{
+    align-items: flex-start;
+}
+
+.align-items-flex-end{
+    align-items: flex-end;
+}
+
+.align-items-lbsline{
+    align-items: last baseline;
+}
+
+.align-items-fblline{
+    align-items: first baseline;
+}
+
+.align-items-end{
+    align-items: end;
+}
+
+.align-items-st{
+    align-items: start;
+}
+
+.align-items-normal{
+    align-items: normal;
+}
+
+.align-content-center{
+    align-content: center;
+}
+
+.align-content-fs{
+    align-content:  flex-start;
+}
+
+.align-content-fe{
+    align-content:  flex-end;
+}
+
+.flex-wrap-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-wrap-wrap-rev{
+    flex-wrap: wrap-reverse;
+}
+
+.flex-wrap-nowrap{
+    flex-wrap: nowrap;
+}
+
+.bg-light-hover:hover{
+    background: var(--light) !important;
+    color: black;
+}
+
+.bg-dark-hover:hover{
+    background: var(--dark) !important;
+    color: white;
+}
+
+.bg-primary-hover:hover{
+    background: var(--primary) !important;
+    color: white;
+}
+
+.bg-yel-hover:hover{
+    background: var(--yel) !important;
+    color: black;
+}
+
+.bg-secondary-hover:hover{
+    background: var(--secondary) !important;
+    color: white;
+}
+
+.bg-solid-hover:hover{
+    background: var(--solid) !important;
+    color: white;
+}
+
+.bg-info-hover:hover{
+    background: var(--info) !important;
+    color: black;
+}
+
+.bg-neon-hover:hover{
+    background: var(--neon) !important;
+    color: black;
+}
+
+.bg-lose-hover:hover{
+    background: var(--lose) !important;
+    color: white;
+}
+
+.bg-win-hover:hover{
+    background: var(--win) !important;
+    color: white;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-hor{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.center-ver{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.rtl{
+    direction: rtl;
+}
+
+.ltr{
+    direction: ltr;
+}
+
+.font-size-10{
+    font-size: 10px;
+}
+
+.font-size-15{
+    font-size: 15px;
+}
+
+.font-size-16{
+    font-size: 16px;
+}
+
+.font-size-17{
+    font-size: 17px;
+}
+
+.font-size-18{
+    font-size: 18px;
+}
+
+.font-size-19{
+    font-size: 19px;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+.font-size-21{
+    font-size: 21px;
+}
+
+.font-size-22{
+    font-size: 22px;
+}
+
+.font-size-23{
+    font-size: 23px;
+}
+
+.font-size-24{
+    font-size: 24px;
+}
+
+.font-size-25{
+    font-size: 25px;
+}
+
+.font-size-26{
+    font-size: 26px;
+}
+
+.font-size-27{
+    font-size: 27px;
+}
+
+.font-size-28{
+    font-size: 28px;
+}
+
+.font-size-29{
+    font-size: 29px;
+}
+
+.font-size-30{
+    font-size: 30px;
+}
+
+.font-size-31{
+    font-size: 31px;
+}
+
+.font-size-32{
+    font-size: 32px;
+}
+
+.font-size-33{
+    font-size: 33px;
+}
+
+.font-size-34{
+    font-size: 34px;
+}
+
+.font-size-35{
+    font-size: 35px;
+}
+
+.font-size-36{
+    font-size: 36px;
+}
+
+.font-size-37{
+    font-size: 37px;
+}
+
+.font-size-38{
+    font-size: 38px;
+}
+
+.font-size-39{
+    font-size: 39px;
+}
+
+.font-size-40{
+    font-size: 40px;
+}
+
+.font-size-10-h:hover{
+    font-size: 10px;
+}
+
+.font-size-15-h:hover{
+    font-size: 15px;
+}
+
+.font-size-16-h:hover{
+    font-size: 16px;
+}
+
+.font-size-17-h:hover{
+    font-size: 17px;
+}
+
+.font-size-18-h:hover{
+    font-size: 18px;
+}
+
+.font-size-19-h:hover{
+    font-size: 19px;
+}
+
+.font-size-20-h:hover{
+    font-size: 20px;
+}
+
+.font-size-21-h:hover{
+    font-size: 21px;
+}
+
+.font-size-22-h:hover{
+    font-size: 22px;
+}
+
+.font-size-23-h:hover{
+    font-size: 23px;
+}
+
+.font-size-24-h:hover{
+    font-size: 24px;
+}
+
+.font-size-25-h:hover{
+    font-size: 25px;
+}
+
+.font-size-26-h:hover{
+    font-size: 26px;
+}
+
+.font-size-27-h:hover{
+    font-size: 27px;
+}
+
+.font-size-28-h:hover{
+    font-size: 28px;
+}
+
+.font-size-29-h:hover{
+    font-size: 29px;
+}
+
+.font-size-30-h:hover{
+    font-size: 30px;
+}
+
+.font-size-31-h:hover{
+    font-size: 31px;
+}
+
+.font-size-32-h:hover{
+    font-size: 32px;
+}
+
+.font-size-33-h:hover{
+    font-size: 33px;
+}
+
+.font-size-34-h:hover{
+    font-size: 34px;
+}
+
+.font-size-35-h:hover{
+    font-size: 35px;
+}
+
+.font-size-36-h:hover{
+    font-size: 36px;
+}
+
+.font-size-37-h:hover{
+    font-size: 37px;
+}
+
+.font-size-38-h:hover{
+    font-size: 38px;
+}
+
+.font-size-39-h:hover{
+    font-size: 39px;
+}
+
+.font-size-40-h:hover{
+    font-size: 40px;
+}
+
+.rotate-5{
+    transform: rotate(5deg);
+}
+
+.rotate-10{
+    transform: rotate(10deg);
+}
+
+.rotate-15{
+    transform: rotate(15deg);
+}
+
+.rotate-20{
+    transform: rotate(20deg);
+}
+
+.rotate-25{
+    transform: rotate(25deg);
+}
+
+.rotate-30{
+    transform: rotate(30deg);
+}
+
+.rotate-35{
+    transform: rotate(35deg);
+}
+
+.rotate-40{
+    transform: rotate(40deg);
+}
+
+.rotate-45{
+    transform: rotate(45deg);
+}
+
+.rotate-50{
+    transform: rotate(50deg);
+}
+
+.rotate-55{
+    transform: rotate(55deg);
+}
+
+.rotate-60{
+    transform: rotate(60deg);
+}
+
+.rotate-65{
+    transform: rotate(65deg);
+}
+
+.rotate-70{
+    transform: rotate(70deg);
+}
+
+.rotate-75{
+    transform: rotate(75deg);
+}
+
+.rotate-80{
+    transform: rotate(80deg);
+}
+
+.rotate-85{
+    transform: rotate(85deg);
+}
+
+.rotate-90{
+    transform: rotate(90deg);
+}
+
+.rotate-95{
+    transform: rotate(95deg);
+}
+
+.rotate-100{
+    transform: rotate(100deg);
+}
+
+.rotate-105{
+    transform: rotate(105deg);
+}
+
+.rotate-110{
+    transform: rotate(110deg);
+}
+
+.rotate-115{
+    transform: rotate(115deg);
+}
+
+.rotate-120{
+    transform: rotate(120deg);
+}
+
+.rotate-130{
+    transform: rotate(130deg);
+}
+
+.rotate-140{
+    transform: rotate(140deg);
+}
+
+.rotate-150{
+    transform: rotate(150deg);
+}
+
+.rotate-160{
+    transform: rotate(160deg);
+}
+
+.rotate-170{
+    transform: rotate(170deg);
+}
+
+.rotate-180{
+    transform: rotate(180deg);
+}
+
+.rotate-200{
+    transform: rotate(200deg);
+}
+
+.rotate-5-h:hover{
+    transform: rotate(5deg);
+}
+
+.rotate-10-h:hover{
+    transform: rotate(10deg);
+}
+
+.rotate-15-h:hover{
+    transform: rotate(15deg);
+}
+
+.rotate-20-h:hover{
+    transform: rotate(20deg);
+}
+
+.rotate-25-h:hover{
+    transform: rotate(25deg);
+}
+
+.rotate-30-h:hover{
+    transform: rotate(30deg);
+}
+
+.rotate-35-h:hover{
+    transform: rotate(35deg);
+}
+
+.rotate-40-h:hover{
+    transform: rotate(40deg);
+}
+
+.rotate-45-h:hover{
+    transform: rotate(45deg);
+}
+
+.rotate-50-h:hover{
+    transform: rotate(50deg);
+}
+
+.rotate-55-h:hover{
+    transform: rotate(55deg);
+}
+
+.rotate-60-h:hover{
+    transform: rotate(60deg);
+}
+
+.rotate-65-h:hover{
+    transform: rotate(65deg);
+}
+
+.rotate-70-h:hover{
+    transform: rotate(70deg);
+}
+
+.rotate-75-h:hover{
+    transform: rotate(75deg);
+}
+
+.rotate-80-h:hover{
+    transform: rotate(80deg);
+}
+
+.rotate-85-h:hover{
+    transform: rotate(85deg);
+}
+
+.rotate-90-h:hover{
+    transform: rotate(90deg);
+}
+
+.rotate-95-h:hover{
+    transform: rotate(95deg);
+}
+
+.rotate-100-h:hover{
+    transform: rotate(100deg);
+}
+
+.rotate-105-h:hover{
+    transform: rotate(105deg);
+}
+
+.rotate-110-h:hover{
+    transform: rotate(110deg);
+}
+
+.rotate-115-h:hover{
+    transform: rotate(115deg);
+}
+
+.rotate-120-h:hover{
+    transform: rotate(120deg);
+}
+
+.rotate-130-h:hover{
+    transform: rotate(130deg);
+}
+
+.rotate-140-h:hover{
+    transform: rotate(140deg);
+}
+
+.rotate-150-h:hover{
+    transform: rotate(150deg);
+}
+
+.rotate-160-h:hover{
+    transform: rotate(160deg);
+}
+
+.rotate-170-h:hover{
+    transform: rotate(170deg);
+}
+
+.rotate-180-h:hover{
+    transform: rotate(180deg);
+}
+
+.rotate-200-h:hover{
+    transform: rotate(200deg);
+}
+
+
+.table{
+    padding: 10px;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.table th{
+    padding: 10px;
+    border: 1px solid white;
+
+}
+
+.table thead tr{
+
+    color: white;
+}
+
+.table tbody tr{
+
+    color: white;
+}
+
+
+.table td{
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+.table-striped-d tbody tr:nth-child(odd){
+    background: var(--dark) !important;
+    color: var(--light);
+}
+
+.table-striped-l tbody tr:nth-child(odd){
+    background: var(--light) !important;
+    color: var(--dark);
+}
+
+.table-striped-lo tbody tr:nth-child(odd){
+    background: var(--lose) !important;
+    color: var(--light);
+}
+
+.table-striped-win tbody tr:nth-child(odd){
+    background: var(--win) !important;
+    color: var(--light);
+}
+
+
+.table-striped-so tbody tr:nth-child(odd){
+    background: var(--solid) !important;
+    color: var(--light);
+}
+
+.table-striped-p tbody tr:nth-child(odd){
+    background: var(--primary) !important;
+    color: var(--light);
+}
+
+.table-striped-in tbody tr:nth-child(odd){
+    background: var(--info) !important;
+    color: var(--dark);
+}
+
+.table-striped-ne tbody tr:nth-child(odd){
+    background: var(--neon) !important;
+    color: var(--dark);
+}
+
+.table-striped-y tbody tr:nth-child(odd){
+    background: var(--yel) !important;
+    color: var(--dark);
+}
+
+.table-striped-sec tbody tr:nth-child(odd){
+    background: var(--secondary) !important;
+    color: var(--light);
+}
+
+.txt-dec-none{
+    text-decoration: none;
+}
+
+.txt-dec-dotted{
+    text-decoration: dotted;
+}
+
+.txt-dec-unline{
+    text-decoration: underline;
+}
+
+.border-all-1-dark{
+    border: 1px solid var(--dark);
+}
+
+.border-all-2-dark{
+    border: 2px solid var(--dark);
+}
+
+.border-all-3-dark{
+    border: 3px solid var(--dark);
+}
+
+.border-all-4-dark{
+    border: 4px solid var(--dark);
+}
+
+.border-all-5-dark{
+    border: 5px solid var(--dark);
+}
+
+.border-all-6-dark{
+    border: 6px solid var(--dark);
+}
+
+.border-all-7-dark{
+    border: 7px solid var(--dark);
+}
+
+.border-all-8-dark{
+    border: 8px solid var(--dark);
+}
+
+.border-all-9-dark{
+    border: 9px solid var(--dark);
+}
+
+.border-all-10-dark{
+    border: 10px solid var(--dark);
+}
+
+.border-all-1-light{
+    border: 1px solid var(--light);
+}
+
+.border-all-2-light{
+    border: 2px solid var(--light);
+}
+
+.border-all-3-light{
+    border: 3px solid var(--light);
+}
+
+.border-all-4-light{
+    border: 4px solid var(--light);
+}
+
+.border-all-5-light{
+    border: 5px solid var(--light);
+}
+
+.border-all-6-light{
+    border: 6px solid var(--light);
+}
+
+.border-all-7-light{
+    border: 7px solid var(--light);
+}
+
+.border-all-8-light{
+    border: 8px solid var(--light);
+}
+
+.border-all-9-light{
+    border: 9px solid var(--light);
+}
+
+.border-all-10-light{
+    border: 10px solid var(--light);
+}
+
+.border-all-1-lose{
+    border: 1px solid var(--lose);
+}
+
+.border-all-2-lose{
+    border: 2px solid var(--lose);
+}
+
+.border-all-3-lose{
+    border: 3px solid var(--lose);
+}
+
+.border-all-4-lose{
+    border: 4px solid var(--lose);
+}
+
+.border-all-5-lose{
+    border: 5px solid var(--lose);
+}
+
+.border-all-6-lose{
+    border: 6px solid var(--lose);
+}
+
+.border-all-7-lose{
+    border: 7px solid var(--lose);
+}
+
+.border-all-8-lose{
+    border: 8px solid var(--lose);
+}
+
+.border-all-9-lose{
+    border: 9px solid var(--lose);
+}
+
+.border-all-10-lose{
+    border: 10px solid var(--lose);
+}
+
+.border-all-1-yel{
+    border: 1px solid var(--yel);
+}
+
+.border-all-2-yel{
+    border: 2px solid var(--yel);
+}
+
+.border-all-3-yel{
+    border: 3px solid var(--yel);
+}
+
+.border-all-4-yel{
+    border: 4px solid var(--yel);
+}
+
+.border-all-5-yel{
+    border: 5px solid var(--yel);
+}
+
+.border-all-6-yel{
+    border: 6px solid var(--yel);
+}
+
+.border-all-7-yel{
+    border: 7px solid var(--yel);
+}
+
+.border-all-8-yel{
+    border: 8px solid var(--yel);
+}
+
+.border-all-9-yel{
+    border: 9px solid var(--yel);
+}
+
+.border-all-10-yel{
+    border: 10px solid var(--yel);
+}
+
+.border-all-1-solid{
+    border: 1px solid var(--solid);
+}
+
+.border-all-2-solid{
+    border: 2px solid var(--solid);
+}
+
+.border-all-3-solid{
+    border: 3px solid var(--solid);
+}
+
+.border-all-4-solid{
+    border: 4px solid var(--solid);
+}
+
+.border-all-5-solid{
+    border: 5px solid var(--solid);
+}
+
+.border-all-6-solid{
+    border: 6px solid var(--solid);
+}
+
+.border-all-7-solid{
+    border: 7px solid var(--solid);
+}
+
+.border-all-8-solid{
+    border: 8px solid var(--solid);
+}
+
+.border-all-9-solid{
+    border: 9px solid var(--solid);
+}
+
+.border-all-10-solid{
+    border: 10px solid var(--solid);
+}
+
+.border-all-1-win{
+    border: 1px solid var(--win);
+}
+
+.border-all-2-win{
+    border: 2px solid var(--win);
+}
+
+.border-all-3-win{
+    border: 3px solid var(--win);
+}
+
+.border-all-4-win{
+    border: 4px solid var(--win);
+}
+
+.border-all-5-win{
+    border: 5px solid var(--win);
+}
+
+.border-all-6-win{
+    border: 6px solid var(--win);
+}
+
+.border-all-7-win{
+    border: 7px solid var(--win);
+}
+
+.border-all-8-win{
+    border: 8px solid var(--win);
+}
+
+.border-all-9-win{
+    border: 9px solid var(--win);
+}
+
+.border-all-10-win{
+    border: 10px solid var(--win);
+}
+
+.border-all-1-primary{
+    border: 1px solid var(--primary);
+}
+
+.border-all-2-primary{
+    border: 2px solid var(--primary);
+}
+
+.border-all-3-primary{
+    border: 3px solid var(--primary);
+}
+
+.border-all-4-primary{
+    border: 4px solid var(--primary);
+}
+
+.border-all-5-primary{
+    border: 5px solid var(--primary);
+}
+
+.border-all-6-primary{
+    border: 6px solid var(--primary);
+}
+
+.border-all-7-primary{
+    border: 7px solid var(--primary);
+}
+
+.border-all-8-primary{
+    border: 8px solid var(--primary);
+}
+
+.border-all-9-primary{
+    border: 9px solid var(--primary);
+}
+
+.border-all-10-primary{
+    border: 10px solid var(--primary);
+}
+
+.border-all-1-secondary{
+    border: 1px solid var(--secondary);
+}
+
+.border-all-2-secondary{
+    border: 2px solid var(--secondary);
+}
+
+.border-all-3-secondary{
+    border: 3px solid var(--secondary);
+}
+
+.border-all-4-secondary{
+    border: 4px solid var(--secondary);
+}
+
+.border-all-5-secondary{
+    border: 5px solid var(--secondary);
+}
+
+.border-all-6-secondary{
+    border: 6px solid var(--secondary);
+}
+
+.border-all-7-secondary{
+    border: 7px solid var(--secondary);
+}
+
+.border-all-8-secondary{
+    border: 8px solid var(--secondary);
+}
+
+.border-all-9-secondary{
+    border: 9px solid var(--secondary);
+}
+
+.border-all-10-secondary{
+    border: 10px solid var(--secondary);
+}
+
+.border-all-1-info{
+    border: 1px solid var(--info);
+}
+
+.border-all-2-info{
+    border: 2px solid var(--info);
+}
+
+.border-all-3-info{
+    border: 3px solid var(--info);
+}
+
+.border-all-4-info{
+    border: 4px solid var(--info);
+}
+
+.border-all-5-info{
+    border: 5px solid var(--info);
+}
+
+.border-all-6-info{
+    border: 6px solid var(--info);
+}
+
+.border-all-7-info{
+    border: 7px solid var(--info);
+}
+
+.border-all-8-info{
+    border: 8px solid var(--info);
+}
+
+.border-all-9-info{
+    border: 9px solid var(--info);
+}
+
+.border-all-10-info{
+    border: 10px solid var(--info);
+}
+
+.border-all-1-neon{
+    border: 1px solid var(--neon);
+}
+
+.border-all-2-neon{
+    border: 2px solid var(--neon);
+}
+
+.border-all-3-neon{
+    border: 3px solid var(--neon);
+}
+
+.border-all-4-neon{
+    border: 4px solid var(--neon);
+}
+
+.border-all-5-neon{
+    border: 5px solid var(--neon);
+}
+
+.border-all-6-neon{
+    border: 6px solid var(--neon);
+}
+
+.border-all-7-neon{
+    border: 7px solid var(--neon);
+}
+
+.border-all-8-neon{
+    border: 8px solid var(--neon);
+}
+
+.border-all-9-neon{
+    border: 9px solid var(--neon);
+}
+
+.border-all-10-neon{
+    border: 10px solid var(--neon);
+}
+
+.border-top-1-dark{
+    border-top: 1px solid var(--dark);
+}
+
+.border-top-2-dark{
+    border-top: 2px solid var(--dark);
+}
+
+.border-top-3-dark{
+    border-top: 3px solid var(--dark);
+}
+
+.border-top-4-dark{
+    border-top: 4px solid var(--dark);
+}
+
+.border-top-5-dark{
+    border-top: 5px solid var(--dark);
+}
+
+.border-top-6-dark{
+    border-top: 6px solid var(--dark);
+}
+
+.border-top-7-dark{
+    border-top: 7px solid var(--dark);
+}
+
+.border-top-8-dark{
+    border-top: 8px solid var(--dark);
+}
+
+.border-top-9-dark{
+    border-top: 9px solid var(--dark);
+}
+
+.border-top-10-dark{
+    border-top: 10px solid var(--dark);
+}
+
+.border-top-1-light{
+    border-top: 1px solid var(--light);
+}
+
+.border-top-2-light{
+    border-top: 2px solid var(--light);
+}
+
+.border-top-3-light{
+    border-top: 3px solid var(--light);
+}
+
+.border-top-4-light{
+    border-top: 4px solid var(--light);
+}
+
+.border-top-5-light{
+    border-top: 5px solid var(--light);
+}
+
+.border-top-6-light{
+    border-top: 6px solid var(--light);
+}
+
+.border-top-7-light{
+    border-top: 7px solid var(--light);
+}
+
+.border-top-8-light{
+    border-top: 8px solid var(--light);
+}
+
+.border-top-9-light{
+    border-top: 9px solid var(--light);
+}
+
+.border-top-10-light{
+    border-top: 10px solid var(--light);
+}
+
+.border-top-1-lose{
+    border-top: 1px solid var(--lose);
+}
+
+.border-top-2-lose{
+    border-top: 2px solid var(--lose);
+}
+
+.border-top-3-lose{
+    border-top: 3px solid var(--lose);
+}
+
+.border-top-4-lose{
+    border-top: 4px solid var(--lose);
+}
+
+.border-top-5-lose{
+    border-top: 5px solid var(--lose);
+}
+
+.border-top-6-lose{
+    border-top: 6px solid var(--lose);
+}
+
+.border-top-7-lose{
+    border-top: 7px solid var(--lose);
+}
+
+.border-top-8-lose{
+    border-top: 8px solid var(--lose);
+}
+
+.border-top-9-lose{
+    border-top: 9px solid var(--lose);
+}
+
+.border-top-10-lose{
+    border-top: 10px solid var(--lose);
+}
+
+.border-top-1-yel{
+    border-top: 1px solid var(--yel);
+}
+
+.border-top-2-yel{
+    border-top: 2px solid var(--yel);
+}
+
+.border-top-3-yel{
+    border-top: 3px solid var(--yel);
+}
+
+.border-top-4-yel{
+    border-top: 4px solid var(--yel);
+}
+
+.border-top-5-yel{
+    border-top: 5px solid var(--yel);
+}
+
+.border-top-6-yel{
+    border-top: 6px solid var(--yel);
+}
+
+.border-top-7-yel{
+    border-top: 7px solid var(--yel);
+}
+
+.border-top-8-yel{
+    border-top: 8px solid var(--yel);
+}
+
+.border-top-9-yel{
+    border-top: 9px solid var(--yel);
+}
+
+.border-top-10-yel{
+    border-top: 10px solid var(--yel);
+}
+
+.border-top-1-solid{
+    border-top: 1px solid var(--solid);
+}
+
+.border-top-2-solid{
+    border-top: 2px solid var(--solid);
+}
+
+.border-top-3-solid{
+    border-top: 3px solid var(--solid);
+}
+
+.border-top-4-solid{
+    border-top: 4px solid var(--solid);
+}
+
+.border-top-5-solid{
+    border-top: 5px solid var(--solid);
+}
+
+.border-top-6-solid{
+    border-top: 6px solid var(--solid);
+}
+
+.border-top-7-solid{
+    border-top: 7px solid var(--solid);
+}
+
+.border-top-8-solid{
+    border-top: 8px solid var(--solid);
+}
+
+.border-top-9-solid{
+    border-top: 9px solid var(--solid);
+}
+
+.border-top-10-solid{
+    border-top: 10px solid var(--solid);
+}
+
+.border-top-1-win{
+    border-top: 1px solid var(--win);
+}
+
+.border-top-2-win{
+    border-top: 2px solid var(--win);
+}
+
+.border-top-3-win{
+    border-top: 3px solid var(--win);
+}
+
+.border-top-4-win{
+    border-top: 4px solid var(--win);
+}
+
+.border-top-5-win{
+    border-top: 5px solid var(--win);
+}
+
+.border-top-6-win{
+    border-top: 6px solid var(--win);
+}
+
+.border-top-7-win{
+    border-top: 7px solid var(--win);
+}
+
+.border-top-8-win{
+    border-top: 8px solid var(--win);
+}
+
+.border-top-9-win{
+    border-top: 9px solid var(--win);
+}
+
+.border-top-10-win{
+    border-top: 10px solid var(--win);
+}
+
+.border-top-1-primary{
+    border-top: 1px solid var(--primary);
+}
+
+.border-top-2-primary{
+    border-top: 2px solid var(--primary);
+}
+
+.border-top-3-primary{
+    border-top: 3px solid var(--primary);
+}
+
+.border-top-4-primary{
+    border-top: 4px solid var(--primary);
+}
+
+.border-top-5-primary{
+    border-top: 5px solid var(--primary);
+}
+
+.border-top-6-primary{
+    border-top: 6px solid var(--primary);
+}
+
+.border-top-7-primary{
+    border-top: 7px solid var(--primary);
+}
+
+.border-top-8-primary{
+    border-top: 8px solid var(--primary);
+}
+
+.border-top-9-primary{
+    border-top: 9px solid var(--primary);
+}
+
+.border-top-10-primary{
+    border-top: 10px solid var(--primary);
+}
+
+.border-top-1-secondary{
+    border-top: 1px solid var(--secondary);
+}
+
+.border-top-2-secondary{
+    border-top: 2px solid var(--secondary);
+}
+
+.border-top-3-secondary{
+    border-top: 3px solid var(--secondary);
+}
+
+.border-top-4-secondary{
+    border-top: 4px solid var(--secondary);
+}
+
+.border-top-5-secondary{
+    border-top: 5px solid var(--secondary);
+}
+
+.border-top-6-secondary{
+    border-top: 6px solid var(--secondary);
+}
+
+.border-top-7-secondary{
+    border-top: 7px solid var(--secondary);
+}
+
+.border-top-8-secondary{
+    border-top: 8px solid var(--secondary);
+}
+
+.border-top-9-secondary{
+    border-top: 9px solid var(--secondary);
+}
+
+.border-top-10-secondary{
+    border-top: 10px solid var(--secondary);
+}
+
+.border-top-1-info{
+    border-top: 1px solid var(--info);
+}
+
+.border-top-2-info{
+    border-top: 2px solid var(--info);
+}
+
+.border-top-3-info{
+    border-top: 3px solid var(--info);
+}
+
+.border-top-4-info{
+    border-top: 4px solid var(--info);
+}
+
+.border-top-5-info{
+    border-top: 5px solid var(--info);
+}
+
+.border-top-6-info{
+    border-top: 6px solid var(--info);
+}
+
+.border-top-7-info{
+    border-top: 7px solid var(--info);
+}
+
+.border-top-8-info{
+    border-top: 8px solid var(--info);
+}
+
+.border-top-9-info{
+    border-top: 9px solid var(--info);
+}
+
+.border-top-10-info{
+    border-top: 10px solid var(--info);
+}
+
+.border-top-1-neon{
+    border-top: 1px solid var(--neon);
+}
+
+.border-top-2-neon{
+    border-top: 2px solid var(--neon);
+}
+
+.border-top-3-neon{
+    border-top: 3px solid var(--neon);
+}
+
+.border-top-4-neon{
+    border-top: 4px solid var(--neon);
+}
+
+.border-top-5-neon{
+    border-top: 5px solid var(--neon);
+}
+
+.border-top-6-neon{
+    border-top: 6px solid var(--neon);
+}
+
+.border-top-7-neon{
+    border-top: 7px solid var(--neon);
+}
+
+.border-top-8-neon{
+    border-top: 8px solid var(--neon);
+}
+
+.border-top-9-neon{
+    border-top: 9px solid var(--neon);
+}
+
+.border-top-10-neon{
+    border-top: 10px solid var(--neon);
+}
+
+.border-bottom-1-dark{
+    border-bottom: 1px solid var(--dark);
+}
+
+.border-bottom-2-dark{
+    border-bottom: 2px solid var(--dark);
+}
+
+.border-bottom-3-dark{
+    border-bottom: 3px solid var(--dark);
+}
+
+.border-bottom-4-dark{
+    border-bottom: 4px solid var(--dark);
+}
+
+.border-bottom-5-dark{
+    border-bottom: 5px solid var(--dark);
+}
+
+.border-bottom-6-dark{
+    border-bottom: 6px solid var(--dark);
+}
+
+.border-bottom-7-dark{
+    border-bottom: 7px solid var(--dark);
+}
+
+.border-bottom-8-dark{
+    border-bottom: 8px solid var(--dark);
+}
+
+.border-bottom-9-dark{
+    border-bottom: 9px solid var(--dark);
+}
+
+.border-bottom-10-dark{
+    border-bottom: 10px solid var(--dark);
+}
+
+.border-bottom-1-light{
+    border-bottom: 1px solid var(--light);
+}
+
+.border-bottom-2-light{
+    border-bottom: 2px solid var(--light);
+}
+
+.border-bottom-3-light{
+    border-bottom: 3px solid var(--light);
+}
+
+.border-bottom-4-light{
+    border-bottom: 4px solid var(--light);
+}
+
+.border-bottom-5-light{
+    border-bottom: 5px solid var(--light);
+}
+
+.border-bottom-6-light{
+    border-bottom: 6px solid var(--light);
+}
+
+.border-bottom-7-light{
+    border-bottom: 7px solid var(--light);
+}
+
+.border-bottom-8-light{
+    border-bottom: 8px solid var(--light);
+}
+
+.border-bottom-9-light{
+    border-bottom: 9px solid var(--light);
+}
+
+.border-bottom-10-light{
+    border-bottom: 10px solid var(--light);
+}
+
+.border-bottom-1-lose{
+    border-bottom: 1px solid var(--lose);
+}
+
+.border-bottom-2-lose{
+    border-bottom: 2px solid var(--lose);
+}
+
+.border-bottom-3-lose{
+    border-bottom: 3px solid var(--lose);
+}
+
+.border-bottom-4-lose{
+    border-bottom: 4px solid var(--lose);
+}
+
+.border-bottom-5-lose{
+    border-bottom: 5px solid var(--lose);
+}
+
+.border-bottom-6-lose{
+    border-bottom: 6px solid var(--lose);
+}
+
+.border-bottom-7-lose{
+    border-bottom: 7px solid var(--lose);
+}
+
+.border-bottom-8-lose{
+    border-bottom: 8px solid var(--lose);
+}
+
+.border-bottom-9-lose{
+    border-bottom: 9px solid var(--lose);
+}
+
+.border-bottom-10-lose{
+    border-bottom: 10px solid var(--lose);
+}
+
+.border-bottom-1-yel{
+    border-bottom: 1px solid var(--yel);
+}
+
+.border-bottom-2-yel{
+    border-bottom: 2px solid var(--yel);
+}
+
+.border-bottom-3-yel{
+    border-bottom: 3px solid var(--yel);
+}
+
+.border-bottom-4-yel{
+    border-bottom: 4px solid var(--yel);
+}
+
+.border-bottom-5-yel{
+    border-bottom: 5px solid var(--yel);
+}
+
+.border-bottom-6-yel{
+    border-bottom: 6px solid var(--yel);
+}
+
+.border-bottom-7-yel{
+    border-bottom: 7px solid var(--yel);
+}
+
+.border-bottom-8-yel{
+    border-bottom: 8px solid var(--yel);
+}
+
+.border-bottom-9-yel{
+    border-bottom: 9px solid var(--yel);
+}
+
+.border-bottom-10-yel{
+    border-bottom: 10px solid var(--yel);
+}
+
+.border-bottom-1-solid{
+    border-bottom: 1px solid var(--solid);
+}
+
+.border-bottom-2-solid{
+    border-bottom: 2px solid var(--solid);
+}
+
+.border-bottom-3-solid{
+    border-bottom: 3px solid var(--solid);
+}
+
+.border-bottom-4-solid{
+    border-bottom: 4px solid var(--solid);
+}
+
+.border-bottom-5-solid{
+    border-bottom: 5px solid var(--solid);
+}
+
+.border-bottom-6-solid{
+    border-bottom: 6px solid var(--solid);
+}
+
+.border-bottom-7-solid{
+    border-bottom: 7px solid var(--solid);
+}
+
+.border-bottom-8-solid{
+    border-bottom: 8px solid var(--solid);
+}
+
+.border-bottom-9-solid{
+    border-bottom: 9px solid var(--solid);
+}
+
+.border-bottom-10-solid{
+    border-bottom: 10px solid var(--solid);
+}
+
+.border-bottom-1-win{
+    border-bottom: 1px solid var(--win);
+}
+
+.border-bottom-2-win{
+    border-bottom: 2px solid var(--win);
+}
+
+.border-bottom-3-win{
+    border-bottom: 3px solid var(--win);
+}
+
+.border-bottom-4-win{
+    border-bottom: 4px solid var(--win);
+}
+
+.border-bottom-5-win{
+    border-bottom: 5px solid var(--win);
+}
+
+.border-bottom-6-win{
+    border-bottom: 6px solid var(--win);
+}
+
+.border-bottom-7-win{
+    border-bottom: 7px solid var(--win);
+}
+
+.border-bottom-8-win{
+    border-bottom: 8px solid var(--win);
+}
+
+.border-bottom-9-win{
+    border-bottom: 9px solid var(--win);
+}
+
+.border-bottom-10-win{
+    border-bottom: 10px solid var(--win);
+}
+
+.border-bottom-1-primary{
+    border-bottom: 1px solid var(--primary);
+}
+
+.border-bottom-2-primary{
+    border-bottom: 2px solid var(--primary);
+}
+
+.border-bottom-3-primary{
+    border-bottom: 3px solid var(--primary);
+}
+
+.border-bottom-4-primary{
+    border-bottom: 4px solid var(--primary);
+}
+
+.border-bottom-5-primary{
+    border-bottom: 5px solid var(--primary);
+}
+
+.border-bottom-6-primary{
+    border-bottom: 6px solid var(--primary);
+}
+
+.border-bottom-7-primary{
+    border-bottom: 7px solid var(--primary);
+}
+
+.border-bottom-8-primary{
+    border-bottom: 8px solid var(--primary);
+}
+
+.border-bottom-9-primary{
+    border-bottom: 9px solid var(--primary);
+}
+
+.border-bottom-10-primary{
+    border-bottom: 10px solid var(--primary);
+}
+
+.border-bottom-1-secondary{
+    border-bottom: 1px solid var(--secondary);
+}
+
+.border-bottom-2-secondary{
+    border-bottom: 2px solid var(--secondary);
+}
+
+.border-bottom-3-secondary{
+    border-bottom: 3px solid var(--secondary);
+}
+
+.border-bottom-4-secondary{
+    border-bottom: 4px solid var(--secondary);
+}
+
+.border-bottom-5-secondary{
+    border-bottom: 5px solid var(--secondary);
+}
+
+.border-bottom-6-secondary{
+    border-bottom: 6px solid var(--secondary);
+}
+
+.border-bottom-7-secondary{
+    border-bottom: 7px solid var(--secondary);
+}
+
+.border-bottom-8-secondary{
+    border-bottom: 8px solid var(--secondary);
+}
+
+.border-bottom-9-secondary{
+    border-bottom: 9px solid var(--secondary);
+}
+
+.border-bottom-10-secondary{
+    border-bottom: 10px solid var(--secondary);
+}
+
+.border-bottom-1-info{
+    border-bottom: 1px solid var(--info);
+}
+
+.border-bottom-2-info{
+    border-bottom: 2px solid var(--info);
+}
+
+.border-bottom-3-info{
+    border-bottom: 3px solid var(--info);
+}
+
+.border-bottom-4-info{
+    border-bottom: 4px solid var(--info);
+}
+
+.border-bottom-5-info{
+    border-bottom: 5px solid var(--info);
+}
+
+.border-bottom-6-info{
+    border-bottom: 6px solid var(--info);
+}
+
+.border-bottom-7-info{
+    border-bottom: 7px solid var(--info);
+}
+
+.border-bottom-8-info{
+    border-bottom: 8px solid var(--info);
+}
+
+.border-bottom-9-info{
+    border-bottom: 9px solid var(--info);
+}
+
+.border-bottom-10-info{
+    border-bottom: 10px solid var(--info);
+}
+
+.border-bottom-1-neon{
+    border-bottom: 1px solid var(--neon);
+}
+
+.border-bottom-2-neon{
+    border-bottom: 2px solid var(--neon);
+}
+
+.border-bottom-3-neon{
+    border-bottom: 3px solid var(--neon);
+}
+
+.border-bottom-4-neon{
+    border-bottom: 4px solid var(--neon);
+}
+
+.border-bottom-5-neon{
+    border-bottom: 5px solid var(--neon);
+}
+
+.border-bottom-6-neon{
+    border-bottom: 6px solid var(--neon);
+}
+
+.border-bottom-7-neon{
+    border-bottom: 7px solid var(--neon);
+}
+
+.border-bottom-8-neon{
+    border-bottom: 8px solid var(--neon);
+}
+
+.border-bottom-9-neon{
+    border-bottom: 9px solid var(--neon);
+}
+
+.border-bottom-10-neon{
+    border-bottom: 10px solid var(--neon);
+}
+
+.border-right-1-dark{
+    border-right: 1px solid var(--dark);
+}
+
+.border-right-2-dark{
+    border-right: 2px solid var(--dark);
+}
+
+.border-right-3-dark{
+    border-right: 3px solid var(--dark);
+}
+
+.border-right-4-dark{
+    border-right: 4px solid var(--dark);
+}
+
+.border-right-5-dark{
+    border-right: 5px solid var(--dark);
+}
+
+.border-right-6-dark{
+    border-right: 6px solid var(--dark);
+}
+
+.border-right-7-dark{
+    border-right: 7px solid var(--dark);
+}
+
+.border-right-8-dark{
+    border-right: 8px solid var(--dark);
+}
+
+.border-right-9-dark{
+    border-right: 9px solid var(--dark);
+}
+
+.border-right-10-dark{
+    border-right: 10px solid var(--dark);
+}
+
+.border-right-1-light{
+    border-right: 1px solid var(--light);
+}
+
+.border-right-2-light{
+    border-right: 2px solid var(--light);
+}
+
+.border-right-3-light{
+    border-right: 3px solid var(--light);
+}
+
+.border-right-4-light{
+    border-right: 4px solid var(--light);
+}
+
+.border-right-5-light{
+    border-right: 5px solid var(--light);
+}
+
+.border-right-6-light{
+    border-right: 6px solid var(--light);
+}
+
+.border-right-7-light{
+    border-right: 7px solid var(--light);
+}
+
+.border-right-8-light{
+    border-right: 8px solid var(--light);
+}
+
+.border-right-9-light{
+    border-right: 9px solid var(--light);
+}
+
+.border-right-10-light{
+    border-right: 10px solid var(--light);
+}
+
+.border-right-1-lose{
+    border-right: 1px solid var(--lose);
+}
+
+.border-right-2-lose{
+    border-right: 2px solid var(--lose);
+}
+
+.border-right-3-lose{
+    border-right: 3px solid var(--lose);
+}
+
+.border-right-4-lose{
+    border-right: 4px solid var(--lose);
+}
+
+.border-right-5-lose{
+    border-right: 5px solid var(--lose);
+}
+
+.border-right-6-lose{
+    border-right: 6px solid var(--lose);
+}
+
+.border-right-7-lose{
+    border-right: 7px solid var(--lose);
+}
+
+.border-right-8-lose{
+    border-right: 8px solid var(--lose);
+}
+
+.border-right-9-lose{
+    border-right: 9px solid var(--lose);
+}
+
+.border-right-10-lose{
+    border-right: 10px solid var(--lose);
+}
+
+.border-right-1-yel{
+    border-right: 1px solid var(--yel);
+}
+
+.border-right-2-yel{
+    border-right: 2px solid var(--yel);
+}
+
+.border-right-3-yel{
+    border-right: 3px solid var(--yel);
+}
+
+.border-right-4-yel{
+    border-right: 4px solid var(--yel);
+}
+
+.border-right-5-yel{
+    border-right: 5px solid var(--yel);
+}
+
+.border-right-6-yel{
+    border-right: 6px solid var(--yel);
+}
+
+.border-right-7-yel{
+    border-right: 7px solid var(--yel);
+}
+
+.border-right-8-yel{
+    border-right: 8px solid var(--yel);
+}
+
+.border-right-9-yel{
+    border-right: 9px solid var(--yel);
+}
+
+.border-right-10-yel{
+    border-right: 10px solid var(--yel);
+}
+
+.border-right-1-solid{
+    border-right: 1px solid var(--solid);
+}
+
+.border-right-2-solid{
+    border-right: 2px solid var(--solid);
+}
+
+.border-right-3-solid{
+    border-right: 3px solid var(--solid);
+}
+
+.border-right-4-solid{
+    border-right: 4px solid var(--solid);
+}
+
+.border-right-5-solid{
+    border-right: 5px solid var(--solid);
+}
+
+.border-right-6-solid{
+    border-right: 6px solid var(--solid);
+}
+
+.border-right-7-solid{
+    border-right: 7px solid var(--solid);
+}
+
+.border-right-8-solid{
+    border-right: 8px solid var(--solid);
+}
+
+.border-right-9-solid{
+    border-right: 9px solid var(--solid);
+}
+
+.border-right-10-solid{
+    border-right: 10px solid var(--solid);
+}
+
+.border-right-1-win{
+    border-right: 1px solid var(--win);
+}
+
+.border-right-2-win{
+    border-right: 2px solid var(--win);
+}
+
+.border-right-3-win{
+    border-right: 3px solid var(--win);
+}
+
+.border-right-4-win{
+    border-right: 4px solid var(--win);
+}
+
+.border-right-5-win{
+    border-right: 5px solid var(--win);
+}
+
+.border-right-6-win{
+    border-right: 6px solid var(--win);
+}
+
+.border-right-7-win{
+    border-right: 7px solid var(--win);
+}
+
+.border-right-8-win{
+    border-right: 8px solid var(--win);
+}
+
+.border-right-9-win{
+    border-right: 9px solid var(--win);
+}
+
+.border-right-10-win{
+    border-right: 10px solid var(--win);
+}
+
+.border-right-1-primary{
+    border-right: 1px solid var(--primary);
+}
+
+.border-right-2-primary{
+    border-right: 2px solid var(--primary);
+}
+
+.border-right-3-primary{
+    border-right: 3px solid var(--primary);
+}
+
+.border-right-4-primary{
+    border-right: 4px solid var(--primary);
+}
+
+.border-right-5-primary{
+    border-right: 5px solid var(--primary);
+}
+
+.border-right-6-primary{
+    border-right: 6px solid var(--primary);
+}
+
+.border-right-7-primary{
+    border-right: 7px solid var(--primary);
+}
+
+.border-right-8-primary{
+    border-right: 8px solid var(--primary);
+}
+
+.border-right-9-primary{
+    border-right: 9px solid var(--primary);
+}
+
+.border-right-10-primary{
+    border-right: 10px solid var(--primary);
+}
+
+.border-right-1-secondary{
+    border-right: 1px solid var(--secondary);
+}
+
+.border-right-2-secondary{
+    border-right: 2px solid var(--secondary);
+}
+
+.border-right-3-secondary{
+    border-right: 3px solid var(--secondary);
+}
+
+.border-right-4-secondary{
+    border-right: 4px solid var(--secondary);
+}
+
+.border-right-5-secondary{
+    border-right: 5px solid var(--secondary);
+}
+
+.border-right-6-secondary{
+    border-right: 6px solid var(--secondary);
+}
+
+.border-right-7-secondary{
+    border-right: 7px solid var(--secondary);
+}
+
+.border-right-8-secondary{
+    border-right: 8px solid var(--secondary);
+}
+
+.border-right-9-secondary{
+    border-right: 9px solid var(--secondary);
+}
+
+.border-right-10-secondary{
+    border-right: 10px solid var(--secondary);
+}
+
+.border-right-1-info{
+    border-right: 1px solid var(--info);
+}
+
+.border-right-2-info{
+    border-right: 2px solid var(--info);
+}
+
+.border-right-3-info{
+    border-right: 3px solid var(--info);
+}
+
+.border-right-4-info{
+    border-right: 4px solid var(--info);
+}
+
+.border-right-5-info{
+    border-right: 5px solid var(--info);
+}
+
+.border-right-6-info{
+    border-right: 6px solid var(--info);
+}
+
+.border-right-7-info{
+    border-right: 7px solid var(--info);
+}
+
+.border-right-8-info{
+    border-right: 8px solid var(--info);
+}
+
+.border-right-9-info{
+    border-right: 9px solid var(--info);
+}
+
+.border-right-10-info{
+    border-right: 10px solid var(--info);
+}
+
+.border-right-1-neon{
+    border-right: 1px solid var(--neon);
+}
+
+.border-right-2-neon{
+    border-right: 2px solid var(--neon);
+}
+
+.border-right-3-neon{
+    border-right: 3px solid var(--neon);
+}
+
+.border-right-4-neon{
+    border-right: 4px solid var(--neon);
+}
+
+.border-right-5-neon{
+    border-right: 5px solid var(--neon);
+}
+
+.border-right-6-neon{
+    border-right: 6px solid var(--neon);
+}
+
+.border-right-7-neon{
+    border-right: 7px solid var(--neon);
+}
+
+.border-right-8-neon{
+    border-right: 8px solid var(--neon);
+}
+
+.border-right-9-neon{
+    border-right: 9px solid var(--neon);
+}
+
+.border-right-10-neon{
+    border-right: 10px solid var(--neon);
+}
+
+.border-left-1-dark{
+    border-left: 1px solid var(--dark);
+}
+
+.border-left-2-dark{
+    border-left: 2px solid var(--dark);
+}
+
+.border-left-3-dark{
+    border-left: 3px solid var(--dark);
+}
+
+.border-left-4-dark{
+    border-left: 4px solid var(--dark);
+}
+
+.border-left-5-dark{
+    border-left: 5px solid var(--dark);
+}
+
+.border-left-6-dark{
+    border-left: 6px solid var(--dark);
+}
+
+.border-left-7-dark{
+    border-left: 7px solid var(--dark);
+}
+
+.border-left-8-dark{
+    border-left: 8px solid var(--dark);
+}
+
+.border-left-9-dark{
+    border-left: 9px solid var(--dark);
+}
+
+.border-left-10-dark{
+    border-left: 10px solid var(--dark);
+}
+
+.border-left-1-light{
+    border-left: 1px solid var(--light);
+}
+
+.border-left-2-light{
+    border-left: 2px solid var(--light);
+}
+
+.border-left-3-light{
+    border-left: 3px solid var(--light);
+}
+
+.border-left-4-light{
+    border-left: 4px solid var(--light);
+}
+
+.border-left-5-light{
+    border-left: 5px solid var(--light);
+}
+
+.border-left-6-light{
+    border-left: 6px solid var(--light);
+}
+
+.border-left-7-light{
+    border-left: 7px solid var(--light);
+}
+
+.border-left-8-light{
+    border-left: 8px solid var(--light);
+}
+
+.border-left-9-light{
+    border-left: 9px solid var(--light);
+}
+
+.border-left-10-light{
+    border-left: 10px solid var(--light);
+}
+
+.border-left-1-lose{
+    border-left: 1px solid var(--lose);
+}
+
+.border-left-2-lose{
+    border-left: 2px solid var(--lose);
+}
+
+.border-left-3-lose{
+    border-left: 3px solid var(--lose);
+}
+
+.border-left-4-lose{
+    border-left: 4px solid var(--lose);
+}
+
+.border-left-5-lose{
+    border-left: 5px solid var(--lose);
+}
+
+.border-left-6-lose{
+    border-left: 6px solid var(--lose);
+}
+
+.border-left-7-lose{
+    border-left: 7px solid var(--lose);
+}
+
+.border-left-8-lose{
+    border-left: 8px solid var(--lose);
+}
+
+.border-left-9-lose{
+    border-left: 9px solid var(--lose);
+}
+
+.border-left-10-lose{
+    border-left: 10px solid var(--lose);
+}
+
+.border-left-1-yel{
+    border-left: 1px solid var(--yel);
+}
+
+.border-left-2-yel{
+    border-left: 2px solid var(--yel);
+}
+
+.border-left-3-yel{
+    border-left: 3px solid var(--yel);
+}
+
+.border-left-4-yel{
+    border-left: 4px solid var(--yel);
+}
+
+.border-left-5-yel{
+    border-left: 5px solid var(--yel);
+}
+
+.border-left-6-yel{
+    border-left: 6px solid var(--yel);
+}
+
+.border-left-7-yel{
+    border-left: 7px solid var(--yel);
+}
+
+.border-left-8-yel{
+    border-left: 8px solid var(--yel);
+}
+
+.border-left-9-yel{
+    border-left: 9px solid var(--yel);
+}
+
+.border-left-10-yel{
+    border-left: 10px solid var(--yel);
+}
+
+.border-left-1-solid{
+    border-left: 1px solid var(--solid);
+}
+
+.border-left-2-solid{
+    border-left: 2px solid var(--solid);
+}
+
+.border-left-3-solid{
+    border-left: 3px solid var(--solid);
+}
+
+.border-left-4-solid{
+    border-left: 4px solid var(--solid);
+}
+
+.border-left-5-solid{
+    border-left: 5px solid var(--solid);
+}
+
+.border-left-6-solid{
+    border-left: 6px solid var(--solid);
+}
+
+.border-left-7-solid{
+    border-left: 7px solid var(--solid);
+}
+
+.border-left-8-solid{
+    border-left: 8px solid var(--solid);
+}
+
+.border-left-9-solid{
+    border-left: 9px solid var(--solid);
+}
+
+.border-left-10-solid{
+    border-left: 10px solid var(--solid);
+}
+
+.border-left-1-win{
+    border-left: 1px solid var(--win);
+}
+
+.border-left-2-win{
+    border-left: 2px solid var(--win);
+}
+
+.border-left-3-win{
+    border-left: 3px solid var(--win);
+}
+
+.border-left-4-win{
+    border-left: 4px solid var(--win);
+}
+
+.border-left-5-win{
+    border-left: 5px solid var(--win);
+}
+
+.border-left-6-win{
+    border-left: 6px solid var(--win);
+}
+
+.border-left-7-win{
+    border-left: 7px solid var(--win);
+}
+
+.border-left-8-win{
+    border-left: 8px solid var(--win);
+}
+
+.border-left-9-win{
+    border-left: 9px solid var(--win);
+}
+
+.border-left-10-win{
+    border-left: 10px solid var(--win);
+}
+
+.border-left-1-primary{
+    border-left: 1px solid var(--primary);
+}
+
+.border-left-2-primary{
+    border-left: 2px solid var(--primary);
+}
+
+.border-left-3-primary{
+    border-left: 3px solid var(--primary);
+}
+
+.border-left-4-primary{
+    border-left: 4px solid var(--primary);
+}
+
+.border-left-5-primary{
+    border-left: 5px solid var(--primary);
+}
+
+.border-left-6-primary{
+    border-left: 6px solid var(--primary);
+}
+
+.border-left-7-primary{
+    border-left: 7px solid var(--primary);
+}
+
+.border-left-8-primary{
+    border-left: 8px solid var(--primary);
+}
+
+.border-left-9-primary{
+    border-left: 9px solid var(--primary);
+}
+
+.border-left-10-primary{
+    border-left: 10px solid var(--primary);
+}
+
+.border-left-1-secondary{
+    border-left: 1px solid var(--secondary);
+}
+
+.border-left-2-secondary{
+    border-left: 2px solid var(--secondary);
+}
+
+.border-left-3-secondary{
+    border-left: 3px solid var(--secondary);
+}
+
+.border-left-4-secondary{
+    border-left: 4px solid var(--secondary);
+}
+
+.border-left-5-secondary{
+    border-left: 5px solid var(--secondary);
+}
+
+.border-left-6-secondary{
+    border-left: 6px solid var(--secondary);
+}
+
+.border-left-7-secondary{
+    border-left: 7px solid var(--secondary);
+}
+
+.border-left-8-secondary{
+    border-left: 8px solid var(--secondary);
+}
+
+.border-left-9-secondary{
+    border-left: 9px solid var(--secondary);
+}
+
+.border-left-10-secondary{
+    border-left: 10px solid var(--secondary);
+}
+
+.border-left-1-info{
+    border-left: 1px solid var(--info);
+}
+
+.border-left-2-info{
+    border-left: 2px solid var(--info);
+}
+
+.border-left-3-info{
+    border-left: 3px solid var(--info);
+}
+
+.border-left-4-info{
+    border-left: 4px solid var(--info);
+}
+
+.border-left-5-info{
+    border-left: 5px solid var(--info);
+}
+
+.border-left-6-info{
+    border-left: 6px solid var(--info);
+}
+
+.border-left-7-info{
+    border-left: 7px solid var(--info);
+}
+
+.border-left-8-info{
+    border-left: 8px solid var(--info);
+}
+
+.border-left-9-info{
+    border-left: 9px solid var(--info);
+}
+
+.border-left-10-info{
+    border-left: 10px solid var(--info);
+}
+
+.border-left-1-neon{
+    border-left: 1px solid var(--neon);
+}
+
+.border-left-2-neon{
+    border-left: 2px solid var(--neon);
+}
+
+.border-left-3-neon{
+    border-left: 3px solid var(--neon);
+}
+
+.border-left-4-neon{
+    border-left: 4px solid var(--neon);
+}
+
+.border-left-5-neon{
+    border-left: 5px solid var(--neon);
+}
+
+.border-left-6-neon{
+    border-left: 6px solid var(--neon);
+}
+
+.border-left-7-neon{
+    border-left: 7px solid var(--neon);
+}
+
+.border-left-8-neon{
+    border-left: 8px solid var(--neon);
+}
+
+.border-left-9-neon{
+    border-left: 9px solid var(--neon);
+}
+
+.border-left-10-neon{
+    border-left: 10px solid var(--neon);
+}
+
+.z-index-0{
+    z-index: 0;
+}
+
+.z-index-1{
+    z-index: 1;
+}
+
+.z-index-2{
+    z-index: 2;
+}
+
+.z-index-3{
+    z-index: 3;
+}
+
+.z-index-4{
+    z-index: 4;
+}
+
+.z-index-5{
+    z-index: 5;
+}
+
+.z-index-6{
+    z-index: 6;
+}
+
+.z-index-7{
+    z-index: 7;
+}
+
+.z-index-8{
+    z-index: 8;
+}
+
+.z-index-9{
+    z-index: 9;
+}
+
+.z-index-10{
+    z-index: 10;
+}
+
+.pos-absolute{
+    position: absolute;
+}
+
+.pos-fixed{
+    position: fixed;
+}
+
+.pos-sticky{
+    position: sticky;
+}
+
+.pos-static{
+    position: static;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.floating-element-1{
+    animation: float-shape 1s ease-in-out infinite;
+}
+
+.floating-element-2{
+    animation: float-shape 2s ease-in-out infinite;
+}
+
+.floating-element-3{
+    animation: float-shape 3s ease-in-out infinite;
+}
+
+.floating-element-4{
+    animation: float-shape 4s ease-in-out infinite;
+}
+
+.floating-element-5{
+    animation: float-shape 5s ease-in-out infinite;
+}
+
+.floating-element-6{
+    animation: float-shape 6s ease-in-out infinite;
+}
+
+.floating-element-1-h:hover{
+    animation: float-shape 1s ease-in-out infinite;
+}
+
+.floating-element-2-h:hover{
+    animation: float-shape 2s ease-in-out infinite;
+}
+
+.floating-element-3-h:hover{
+    animation: float-shape 3s ease-in-out infinite;
+}
+
+.floating-element-4-h:hover{
+    animation: float-shape 4s ease-in-out infinite;
+}
+
+.floating-element-5-h:hover{
+    animation: float-shape 5s ease-in-out infinite;
+}
+
+.floating-element-6-h:hover{
+    animation: float-shape 6s ease-in-out infinite;
+}
+
+
+@keyframes float-shape {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(1deg); }
+}
+
+.glow-sm{
+    animation: glowupanddown-small 3s ease-in-out infinite;
+}
+
+.glow-sm-h:hover{
+    animation: glowupanddown-small 3s ease-in-out infinite;
+}
+
+@keyframes glowupanddown-small {
+    0%{
+        box-shadow: 0px 0px 0px 0px var(--yel);
+    }
+    80%{
+        box-shadow: 0px 0px 10px 4px var(--yel);
+    }
+    100%{
+        box-shadow: 0px 0px 0px 0px var(--yel);
+    }
+}
+
+.glow-lg{
+    animation: glowupanddown-large 3s ease-in-out infinite;
+}
+
+.glow-lg-h:hover{
+    animation: glowupanddown-large 3s ease-in-out infinite;
+}
+
+@keyframes glowupanddown-large {
+    0%{
+        box-shadow: 0px 0px 0px 0px var(--yel);
+    }
+    80%{
+        box-shadow: 0px 0px 60px 4px var(--yel);
+    }
+    100%{
+        box-shadow: 0px 0px 0px 0px var(--yel);
+    }
+}
+
+.breath-lg{
+    animation: breath 3s ease-in-out infinite;
+}
+
+.breath-sm{
+    animation: breath-sm 3s ease-in-out infinite;
+}
+
+.breath-lg-h:hover{
+    animation: breath 3s ease-in-out infinite;
+}
+
+.breath-sm-h:hover{
+    animation: breath-sm 3s ease-in-out infinite;
+}
+
+
+@keyframes breath-sm {
+    0%{
+        padding: 0px;
+    }
+    60%{
+        padding: 3%;
+    }
+    100%{
+        padding: 0px;
+    }
+}
+
+@keyframes breath {
+    0%{
+        padding: 0px;
+    }
+    60%{
+        padding: 20%;
+    }
+    100%{
+        padding: 0px;
+    }
+}
+
+.float{
+    animation: float 3s ease-in-out infinite;
+}
+
+.float-h:hover{
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(-2%);
+    }
+    50%{
+        transform: translateY(2%);
+    }
+    100%{
+        transform: translateY(-2%);
+    }
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.overflow-scroll{
+    overflow: scroll;
+}
+
+.overflow-auto{
+    overflow: auto;
+}
+
+.overflow-visible{
+    overflow: visible;
+}
+
+.dead{
+    display: none;
+}
+
+.fadeout{
+    opacity: 0;
+}
+
+.fadein{
+    opacity: 1;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+    user-select: none;
+}
+
+.egg-sm {
+    width: 68px;
+    height: 95px;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.egg-lg {
+    width: 204px;
+    height: 285px;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.egg {
+    width: 136px;
+    height: 190px;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+
+.text-light{
+    color: var(--light);
+}
+
+.text-dark{
+    color: var(--dark);
+}
+
+.text-lose{
+    color: var(--lose);
+}
+
+.text-win{
+    color: var(--win);
+}
+
+.text-primary{
+    color: var(--primary);
+}
+
+.text-secondary{
+    color: var(--secondary);
+}
+
+.text-solid{
+    color: var(--solid);
+}
+
+.text-yel{
+    color: var(--yel);
+}
+
+.text-info{
+    color: var(--info);
+}
+
+.text-neon{
+    color: var(--neon);
+}
+
+.text-light-h:hover{
+    color: var(--light);
+}
+
+.text-dark-h:hover{
+    color: var(--dark);
+}
+
+.text-lose-h:hover{
+    color: var(--lose);
+}
+
+.text-win-h:hover{
+    color: var(--win);
+}
+
+.text-primary-h:hover{
+    color: var(--primary);
+}
+
+.text-secondary-h:hover{
+    color: var(--secondary);
+}
+
+.text-solid-h:hover{
+    color: var(--solid);
+}
+
+.text-yel-h:hover{
+    color: var(--yel);
+}
+
+.text-info-h:hover{
+    color: var(--info);
+}
+
+.text-neon-h:hover{
+    color: var(--neon);
+}
+
+.badge{
+    border-radius: 7px;
+}
+
+.royal-color-box{
+    opacity: 0.7;
+    box-shadow: 0px 0px 7px 2px black;
+    backdrop-filter: blur(9px);
+    padding: 20px;
+}
+
+.royal-color-box-in{
+    opacity: 0.7;
+    box-shadow: inset 0px 0px 7px 2px black;
+    backdrop-filter: blur(9px);
+    padding: 20px;
+
+}
+
+
+.blur-1{
+    backdrop-filter: blur(1px);
+}
+
+.blur-2{
+    backdrop-filter: blur(2px);
+}
+
+.blur-3{
+    backdrop-filter: blur(3px);
+}
+
+.blur-4{
+    backdrop-filter: blur(4px);
+}
+
+.blur-5{
+    backdrop-filter: blur(5px);
+}
+
+.blur-6{
+    backdrop-filter: blur(6px);
+}
+
+.blur-7{
+    backdrop-filter: blur(7px);
+}
+
+.blur-8{
+    backdrop-filter: blur(8px);
+}
+
+.blur-9{
+    backdrop-filter: blur(9px);
+}
+
+.blur-10{
+    backdrop-filter: blur(10px);
+}
+
+.blur-11{
+    backdrop-filter: blur(11px);
+}
+
+.blur-12{
+    backdrop-filter: blur(12px);
+}
+
+.blur-13{
+    backdrop-filter: blur(13px);
+}
+
+.blur-14{
+    backdrop-filter: blur(14px);
+}
+
+.blur-15{
+    backdrop-filter: blur(15px);
+}
+
+.blur-16{
+    backdrop-filter: blur(16px);
+}
+
+.full-blur-1{
+    filter: blur(1px);
+}
+
+.full-blur-2{
+    filter: blur(2px);
+}
+
+.full-blur-3{
+    filter: blur(3px);
+}
+
+.full-blur-4{
+    filter: blur(4px);
+}
+
+.full-blur-5{
+    filter: blur(5px);
+}
+
+.full-blur-6{
+    filter: blur(6px);
+}
+
+.full-blur-7{
+    filter: blur(7px);
+}
+
+.full-blur-8{
+    filter: blur(8px);
+}
+
+.full-blur-9{
+    filter: blur(9px);
+}
+
+.full-blur-10{
+    filter: blur(10px);
+}
+
+.full-blur-11{
+    filter: blur(11px);
+}
+
+.full-blur-12{
+    filter: blur(12px);
+}
+
+.full-blur-13{
+    filter: blur(13px);
+}
+
+.full-blur-14{
+    filter: blur(14px);
+}
+
+.full-blur-15{
+    filter: blur(15px);
+}
+
+.full-blur-16{
+    filter: blur(16px);
+}
+
+.heart { 
+    position: relative; 
+    width: 100px; 
+    height: 90px; 
+} 
+
+.heart:before, .heart:after { 
+    position: absolute; 
+    content: ""; 
+    left: 50px; 
+    top: 0; 
+    width: 50px; 
+    height: 80px; 
+    background: red; 
+    border-radius: 50px 50px 0 0; 
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%; 
+} 
+
+.heart:after { 
+    left: 0; 
+    transform: rotate(45deg); 
+    transform-origin :100% 100%; 
+}
+
+.triangle-dark{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid var(--dark);
+}
+
+.triangle-primary {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid var(--primary);
+}
+
+.triangle-info {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid var(--info);
+}
+
+.triangle-lose {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid var(--lose);
+}
+
+.triangle-win{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid var(--win);
+}
+
+.triangle-sec {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid var(--secondary);
+}
+
+.triangle-light {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid var(--light);
+}
+
+.triangle-sol {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid var(--solid);
+}
+
+.triangle-neon {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid var(--neon);
+}
+
