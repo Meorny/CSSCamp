@@ -341,6 +341,5 @@ Safari 10.1+
 
 Edge 16+
 
-MIT
 
-CSSCamp v1.0 • One file, everything included.
+CSSCamp v1.0 • One file, everything included
